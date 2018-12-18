@@ -1,12 +1,10 @@
 # PHVM
 
-
-
-A fork of HHVM designed for executing programs written in **PHP ONLY**. HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.
+A fork of HHVM designed for executing programs written in **PHP ONLY** with ongoing support for the PHP programming language unlike HHVM. PHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.
 
 PHVM supports a large subset of PHP 7 that is required by common tools and libraries
 
-HHVM should be used together with a webserver like the built in, easy to deploy [Proxygen](https://docs.hhvm.com/hhvm/basic-usage/proxygen), or a [FastCGI](https://docs.hhvm.com/hhvm/advanced-usage/fastCGI)-based webserver on top of nginx or Apache.
+PHVM should be used together with a webserver like the built in, easy to deploy [Proxygen](https://docs.hhvm.com/hhvm/basic-usage/proxygen), or a [FastCGI](https://docs.hhvm.com/hhvm/advanced-usage/fastCGI)-based webserver on top of nginx or Apache.
 
 ## Installing
 
