@@ -1,15 +1,10 @@
-# HHVM
+# PHVM
 
-[HHVM page](https://hhvm.com) |
-[HHVM documentation](https://docs.hhvm.com/hhvm/) |
-[Hacklang page](http://hacklang.org) |
-[General group](https://www.facebook.com/groups/hhvm.general/) |
-[Dev group](https://www.facebook.com/groups/hhvm.dev/) |
-[Twitter](https://twitter.com/HipHopVM)
 
-HHVM is an open-source virtual machine designed for executing programs written in [Hack](http://hacklang.org). HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.
 
-HHVM is intended for [Hack](http://hacklang.org) projects, and also supports a large subset of PHP 7 that is required by common tools and libraries. We no longer recommend using HHVM for purely PHP projects.
+A fork of HHVM designed for executing programs written in **PHP ONLY**. HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.
+
+PHVM supports a large subset of PHP 7 that is required by common tools and libraries
 
 HHVM should be used together with a webserver like the built in, easy to deploy [Proxygen](https://docs.hhvm.com/hhvm/basic-usage/proxygen), or a [FastCGI](https://docs.hhvm.com/hhvm/advanced-usage/fastCGI)-based webserver on top of nginx or Apache.
 
